@@ -1,0 +1,23 @@
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: yellow !important;
+}
+
+img.card-img {
+    width: 100%;
+}
+
+button.btn {
+    margin-right: .5rem;
+}
+
+@media all and (max-width: 360px) {
+    div.card {
+        width: 20rem !important;
+    }
+}
