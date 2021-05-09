@@ -7,7 +7,7 @@ import "./style.css";
 function Home() {
     return (
         <div>
-            <h1 style={{ margin: '2rem 0', textAlign: 'center' }}>Hello! and Welcome to my React Portfolio</h1>
+            <h1 style={{ margin: '2rem 0', textAlign: 'center' }}>Hello!! and Welcome to my React Portfolio</h1>
             <div className="container">
                 <p className="p">Please excuse this garbage appearance. I am rebuilding this completely after graduation.</p>
                 <p className="p">The intent of this homework assignment was to build a React portfolio. My most up to date (April) portfolio can be found on my Portfolio page.</p>
