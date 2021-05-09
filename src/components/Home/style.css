@@ -1,0 +1,251 @@
+body {
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+section {
+    display: block;
+}
+
+ul.is-flex {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+em, p, ul, li, .subtitle {
+    /* color: #22162b !important; */
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+figure {
+    margin: 0 auto;
+    transition: all .3s linear;
+    padding: 0;
+}
+
+img {
+    /* height: auto; */
+    max-width: 100%;
+}
+
+ul.is-flex li a {
+    color: #fff;
+}
+
+.section {
+    padding: 3rem 1.5rem;
+}
+
+.selfsection {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.topsections {
+    /* opacity: 0; */
+    transition: opacity 1000ms ease-in;
+}
+
+.container {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    padding: 0 !important;
+}
+
+.columns {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-top: -.75rem;
+}
+
+.columns:last-child {
+    margin-bottom: -.75rem;
+}
+
+.my-0 {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: .75rem;
+}
+
+.column.is-four-fifths {
+    background: #702dd5;
+}
+
+.centered-sections {
+    margin: 0 auto;
+}
+
+.px-0 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.columns.is-vcentered {
+    align-items: center;
+}
+
+.py-4 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.pr-0 {
+    padding-right: 0!important;
+}
+
+.py-0 {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.selflinks ul li {
+    background-color: #22162b !important;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    line-height: 1.5;
+    padding: .25rem .38rem;
+    transition: all .3s linear;
+}
+
+.is-flex {
+    display: flex!important;
+}
+
+.is-flex-direction-column {
+    flex-direction: column!important;
+}
+
+.is-align-items-flex-end {
+    align-items: flex-end!important;
+}
+
+.is-justify-content-space-between {
+    justify-content: space-between!important;
+}
+
+.py-3 {
+    padding-top: .75rem!important;
+    padding-bottom: .75rem!important;
+}
+
+.mb-3 {
+    margin-bottom: .75rem!important;
+}
+
+.mr-3 {
+    margin-right: .75rem!important;
+}
+
+.image {
+    display: block;
+    position: relative;
+}
+
+.columns.is-mobile {
+    display: flex;
+}
+
+.image img.is-rounded {
+    border-radius: 290486px;
+}
+
+.image img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.pl-0 {
+    padding-left: 0!important;
+}
+
+.ml-3 {
+    margin-left: .75rem!important;
+}
+
+.is-align-items-flex-start {
+    align-items: flex-start!important;
+}
+
+@media (max-width: 450px) {
+    ul.is-flex li a {
+        font-size: 12px;
+    }
+
+    .selfsection {
+        padding: 0;
+    }
+
+    .p {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .selfimage {
+        width: 128px;
+    }
+
+    .columns > .column > .columns > .column {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1216px) {
+    .container:not(.is-max-desktop) {
+        max-width: 1152px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 769px), print {
+    .columns:not(.is-desktop) {
+        display: flex;
+    }
+
+    .column.is-four-fifths, .column.is-four-fifths-tablet {
+        flex: none;
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    ul.is-flex.is-flex-direction-column {
+        height: 200px;
+    }
+
+    ul.is-flex li {
+        margin: 0;
+    }
+
+    ul.is-flex li a {
+        font-size: 20px;
+    }
+
+    .selfimage {
+        width: 256px;
+    }
+}
