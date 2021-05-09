@@ -22,6 +22,12 @@ This repo is designed for homework.
 [Adding Images to Files](https://create-react-app.dev/docs/adding-images-fonts-and-files/)
  
 [React Bootstrap Documentation](https://react-bootstrap.github.io/components/images/)
+
+[How to use BrowserRouter on GitHub Pages](https://medium.com/@arijit_chowdhury/deploy-react-app-with-react-router-to-github-pages-for-free-569377f483f)
+
+[Troubleshooting Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites#missing-docs-folder)
+
+[Unpublishing a user or organization site](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site#unpublishing-a-user-or-organization-site)
  
 
 ## Future Improvements

@@ -13,11 +13,11 @@ import './App.css'
 
 function App() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div className="page-container">
                 <Header />
                 <Switch>
-                    <Route path="/" exact component={Home} />
+                    <Route exact path='/' component={Home} />
                     <Route path="/portfolio" component={Projects} />
                 </Switch>
                 <Footer />
